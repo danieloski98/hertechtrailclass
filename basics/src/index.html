@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,21 +15,30 @@
 </head>
 <body>
 
-    <div class='w-full h-screen flex justify-center items-center px-12 bg-[whitesmoke]'>
-        <div class="w-[30%] h-96 bg-white rounded-xl shadow-md overflow-hidden">
-          <div class="w-full h-[40%] bg-primary">
-            <img src="./img3.png" class="w-full h-full object-cover" />
+    <div class='w-full h-screen bg-[white] bg-[url("https://placekitten.com/1400")] bg-cover bg-center'>
+
+        <div class=" h-full backdrop-blur-md backdrop-saturate-50 flex flex-col justify-center items-center ">
+
+          <h3 class="text-white text-lg">Tailwind filters</h3>
+
+          <div class="w-[30%] h-96 bg-white rounded-xl overflow-hidden  drop-shadow-md transition ease-in-out duration-[1s] delay-[2s] hover:scale-125">
+            <div class="w-full h-[40%] bg-primary">
+              <img src="./img3.png" class="w-full h-full object-cover" />
+            </div>
+    
+          <div class="w-full h-[60%] px-5 py-10 flex flex-col">
+            <h1 class="text-2xl font-Montserrat-Medium">Hertechtrailers</h1>
+            <p class="text-sm font-Montserrat-Regular mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias sint rerum totam? Ut alias quidem explicabo necessitatibus dolorum repellat eius commodi assumenda quaerat eaque?</p>
+    
+            <div class="flex justify-end">
+              <button class="h-[40px] px-3 bg-btnBg text-white rounded-md mt-3  hover:scale-125 hover:translate-x-5">Read more</button>
+            </div>
+
           </div>
-  
-        <div class="w-full h-[60%] px-5 py-10 flex flex-col">
-          <h1 class="text-2xl font-Montserrat-Medium">Hertechtrailers</h1>
-          <p class="text-sm font-Montserrat-Regular mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias sint rerum totam? Ut alias quidem explicabo necessitatibus dolorum repellat eius commodi assumenda quaerat eaque?</p>
-  
-          <div class="flex justify-end">
-            <button class="h-[40px] px-3 bg-btnBg text-white rounded-md mt-3">Read more</button>
           </div>
+
         </div>
-        </div>
+
       </div>
 
 </body>
